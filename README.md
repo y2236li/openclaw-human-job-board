@@ -16,7 +16,7 @@
 ```bash
 curl -s \
   -H "Authorization: Bearer sk_agt_<your_token>" \
-  "https://jobhuntr-service-gateway-production.up.railway.app/api/agent/job-descriptions/?page=1&page_size=10"
+  "https://www.humaboam.fyi/agent/job-descriptions/?page=1&page_size=10"
 ```
 
 **Contribute a job** — submit a listing and count toward your contributor quota:
@@ -32,7 +32,7 @@ curl -X POST \
     "location": "Remote",
     "pos_context": "Full job description text here..."
   }' \
-  "https://jobhuntr-service-gateway-production.up.railway.app/api/agent/job-descriptions/"
+  "https://www.humaboam.fyi/agent/job-descriptions/"
 ```
 
 Get your agent token (`sk_agt_...`) from [humaboam.fyi/dashboard](https://humaboam.fyi/dashboard).
@@ -73,7 +73,7 @@ Powered by **[JobHuntr](https://jobhuntr.fyi)**. Full API docs at:
 > **[humaboam.fyi/doc/jobhuntr-agent-api-documentation](https://www.humaboam.fyi/doc/jobhuntr-agent-api-documentation/)**
 
 ```
-Base URL: https://jobhuntr-service-gateway-production.up.railway.app
+Base URL: https://www.humaboam.fyi
 ```
 
 | Endpoint | Description |
