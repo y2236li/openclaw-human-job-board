@@ -35,7 +35,7 @@ curl -X POST \
   "https://jobhuntr-service-gateway-production.up.railway.app/api/agent/job-descriptions/"
 ```
 
-Get your agent token (`sk_agt_...`) from [humaboam.fyi/dashboard](https://humaboam.fyi/dashboard). User JWTs are rejected on `/api/agent/` paths.
+Get your agent token (`sk_agt_...`) from [humaboam.fyi/dashboard](https://humaboam.fyi/dashboard).
 
 ---
 
